@@ -1,0 +1,218 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	font-family: "Gothic A1", "roboto" sans-serif;
+	max-width: 1519px;
+	padding: 0px 135px 0px 135px;
+	background-color: #ffffff;
+	display: flex;
+	flex-direction: column;
+
+}
+
+.navbar{
+	width: 100%;
+	height: 102px;
+	display: flex;
+	align-items: center;
+	gap: 330px
+
+}
+
+.logo_link{
+	display: flex;
+	gap: 60px;
+	font-family: "roboto";
+	font-weight: 400px;
+	font-size: 12px;
+	line-height: 12px;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+}
+
+.logo_link a{
+	color: #000;
+	text-decoration: none;
+	padding: 3.89px 0px 3.89px 0px;
+}
+
+.logo_link a:hover{
+	border-top: 1px solid #000;
+	border-bottom: 1px solid #000;
+	/* scale: 1.1; */
+}
+
+.logo_link a:active{
+	scale: 1.1;
+}
+
+/* Contact Information */
+
+
+.Contact{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	gap: 305px;
+	margin: 0px -135px 0px -135px
+
+}
+.Information{
+	padding-left: 100px;
+}
+.Information h1{   
+	margin: 0;
+	font-family: Roboto;
+	font-weight: 300;
+	font-size: 64px;
+	color: #BDBDBD;
+}
+.Information h2{
+	margin: 0;
+	font-family: Roboto;
+	font-weight: 700;
+	font-size: 64px;
+	color: #333333;
+}
+.Information h3{
+	margin: 0;
+}
+.Information h4{
+	margin: 0;
+	font-family: Roboto;
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 100%;
+	letter-spacing: 0%;
+	color: #333333;
+}
+.Information h5{
+	margin: 0;
+}
+.Information p{
+	font-family: Roboto;
+	font-weight: 50px;
+	font-size: 16px;
+	color: #756f6f;
+}
+.Information h5{
+	font-family: Roboto;
+	font-weight: 300;
+	font-size: 16px;
+	line-height: 100%;
+	letter-spacing: 0%;
+	color: #333333;
+}
+.Information button{
+	width: 222px;
+	height: 71px;
+	background-color: #333333;
+	color: #FFFFFF;
+	border: none;
+}
+
+.section-6{
+	height: 417px;
+	background-color: #333333;
+	margin: 0px -135px 0px -135px;
+}
+
+.section-6_box{
+	height: 347px;
+	display: flex;
+	padding: 58px 0px 0px 116px;
+	
+}
+
+.section-6_box img{
+	margin-right: 100px;
+}
+
+.section-6_box .information{
+	margin-right: 157px;
+}
+
+.section-6_box .contacts{
+	margin-right: 250px;
+}
+
+.information h1{
+	font-family: "roboto";
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 100%;
+	letter-spacing: 0%;
+	color: #ffffff;
+	margin-bottom: 25px;
+}
+
+.information p{
+	font-family: "roboto";
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 24px;
+	letter-spacing: 3px;
+	color: #ffffff;
+	margin-bottom: 16px;
+}
+
+.section-6_box .contacts img{
+	margin-right: 10px;
+}
+
+.section-6_box .contacts h1{
+	font-family: "roboto";
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 100%;
+	letter-spacing: 0%;
+	color: #ffffff;
+	margin-bottom: 25px;
+}
+
+.section-6_box .contacts p{
+	font-family: "roboto";
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 24px;
+	letter-spacing: 3px;
+	color: #ffffff;
+	margin-bottom: 32px;
+}
+
+.bottom_text h1{
+	display: flex;
+	justify-content: center;
+	margin-top: 24px;
+	font-family: "open sans";
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 22px;
+	letter-spacing: 1px;
+	color: #c8c8c8;
+	
+}
+
+.section-6_box .social_media h1{
+	font-family: "roboto";
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 100%;
+	letter-spacing: 0%;
+	color: #ffffff;
+	margin-bottom: 25px;
+}
+
+.section-6_box .social_media .icons{
+	display: flex;
+	gap: 40px;
+}
+
+.section-6_box .social_media .icons .bx{
+	font-size: 25px;
+}
